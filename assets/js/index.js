@@ -29,4 +29,8 @@ $(document).ready(function () {
         delay: 5000,
       },
     });
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 500,
+      speedAsDuration: true
+    });
 });

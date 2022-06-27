@@ -787,4 +787,43 @@ textarea{
     color: #000;
     transform: rotate(20deg);
 }
+.footer-3 {
+    padding-right: 0px !important;
+}
+.credit-policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e6e4ec;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.policy ul{
+    display: flex;
+    list-style-type: none;
+}
+.policy ul li a{
+    display: block;
+    text-transform: uppercase;
+    margin-right: 15px;
+    color: #e6e6e6;
+    transition: .3s linear;
+    letter-spacing: .3px;
+}
+.policy ul li a:hover{
+    color: #00e0d0;
+    transition: .3s linear;
+}
+.credit p{
+    letter-spacing: .3px;
+    text-align: center;
+}
+.credit span a{
+    color: #00e0d0;
+    transition: .3s linear;
+}
+.credit span a:hover{
+    color: #fff;
+    transition: .3s linear;
+}
 
