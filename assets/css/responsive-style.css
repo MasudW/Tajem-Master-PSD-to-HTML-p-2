@@ -1,0 +1,317 @@
+/* -------- Responsive 920 px ------- */
+@media (max-width: 920px) {
+    .social .fa-soc {
+        margin-right: 10px;
+        font-size: 14px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 5px 0;
+        display: inline-block;
+        width: 27px;
+        text-align: center;
+        cursor: pointer;
+        transition: .3s linear;
+    }
+    .footer-2, .footer-3, .footer-1 {
+        flex: 31%;
+        color: #fff;
+        padding-right: 25px;
+    }
+}
+
+/* -------- Responsive 803px -------- */
+@media (max-width: 803px) {
+    .footer-2, .footer-1 {
+        flex: 50%;
+        color: #fff;
+        margin-bottom: 25px;
+        padding-right: 15px;
+    }
+    .footer-3{
+        flex: 100%;
+    }
+    .footer-3 h3 {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .footer-3 .in-bo input[type="text"] {
+        outline: none;
+        border: 1px solid #9e98b0;
+        background-color: transparent;
+        padding: 9px 7px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: .5px;
+        line-height: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .social {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .social .fa-soc {
+        margin-right: 10px;
+        font-size: 17px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 10px 0;
+        display: inline-block;
+        width: 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: .3s linear;
+    }
+}
+/* -------- Responsive 738px -------- */
+@media (max-width: 738px){
+    .left-s, .right-s {
+        flex: 100%;
+    }
+    .left-s form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* ------------- navbar ------------- */
+    .toogle-img{
+        display: block;
+        cursor: pointer;
+    }
+    .toogle-img .lol{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-bottom: 7px;
+        display: block;
+        transition: .3s linear;
+    }
+    .togle-bg .lol{
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 7px;
+        display: block;
+        transition: .3s linear;
+    }
+    .stciky .lol{
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 7px;
+        display: block;
+        transition: .3s linear;
+    }
+    .toggler .lol:nth-child(1){
+        transform: rotate(45deg);
+        margin-bottom: 7px;
+        transition: .3s linear;
+    }
+    .toggler .lol:nth-child(2){
+        display: none;
+    }
+    .toggler .lol:nth-child(3){
+        transform: rotate(-45deg);
+        margin-top: -10px;
+        transition: .3s linear;
+    }
+    .togle-bg{
+        background-color: #fff;
+        transition: .3s linear;
+    }
+    /* --------------- nav -------------- */
+    .menu-area {
+        background-color: #00e0d0;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        height: 0;
+        overflow: hidden;
+        transition: .3s linear;
+    }
+    .menu-area-switch {
+        background-color: #00e0d0;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        height: 344px;
+        transition: .3s linear;
+    }
+    .menu-area .nav-menu{
+        flex-direction: column;
+    }
+    .menu-area .nav-menu li a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        color: #000;
+        margin: 0;
+    }
+    .menu-area .nav-menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .navbar{
+        padding: 10px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: .3s linear;
+    }
+}
+/* -------- Responsive 655px -------- */
+@media (max-width: 655px) {
+    .team-box .t-box img {
+        width: 100px;
+        height: 102px;
+        display: block;
+    }
+    .t-box {
+        margin-right: 10px;
+        width: 102px;
+        border: 1px solid rgba(255, 255, 255, 0.548);
+        box-sizing: border-box;
+    }
+    .section-m {
+        margin: 47px auto;
+    }
+}
+/* -------- Responsive 597px -------- */
+@media (max-width: 597px) {
+    .section-m {
+        flex-wrap: wrap;
+    }
+    .section-m .left img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .section-m .right h2 {
+        margin-bottom: 15px;
+    }
+    .section-m .right p:nth-child(2) {
+        margin-bottom: 12px;
+    }
+    .section-m .right a {
+        margin-top: 16px;
+    }
+    .main-ex {
+        padding: 41px 0;
+    }
+    .expertise-box .box {
+        width: 200px;
+        height: 255px;
+    }
+    .bdxx .fa-quote-left {
+        font-size: 37px;
+    }
+    .bd-page .swiper-pagination-bullet {
+        width: 30px;
+        height: 30px;
+    }
+    .bd-page .swiper-pagination-bullet-active {
+        width: 40px;
+        height: 40px;
+    }
+    #Rating {
+        height: 527px;
+    }
+    #Form {
+        padding: 34px 0;
+    }
+    .left-s form h1, .right-s form h1 {
+        margin-bottom: 16px;
+    }
+    .right-s h1 {
+        margin-bottom: 5px;
+        margin-top: 11px;
+    }
+}
+/* -------- Responsive 443px -------- */
+@media (max-width: 443px) {
+    .team-box {
+        flex-wrap: wrap;
+    }
+    .t-box {
+        margin-right: 10px;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.548);
+        box-sizing: border-box;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .team-box .t-box img {
+        width: 100%;
+        height: 395px;
+        display: block;
+    }
+    #Team {
+        background-attachment: fixed;
+    }
+    .photo-size {
+        width: 16.66%;
+        flex: 33%;
+    }
+}
+/* -------- Responsive 426px -------- */
+@media (max-width: 426px) {
+    .expertise-box .box {
+        width: 100%;
+        height: 218px;
+    }
+    .team-box .t-box img {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+    .bdxx .pp {
+        font-size: 14px;
+    }
+    .bdxx h4 {
+        font-size: 17px;
+    }
+    .bdxx .bbc {
+        font-size: 12px;
+        padding: 4px 0 20px 0;
+    }
+}
+/* -------- Responsive 339px -------- */
+@media (max-width: 339px) {
+    .footer-2, .footer-1 {
+        flex: 100%;
+        margin-bottom: 0px;
+        padding-right: 15px;
+    }
+    .footer-2 h3, .footer-3 h3 {
+        margin-bottom: 16px;
+        margin-top: 14px;
+    }
+    .call {
+        margin-top: -11px;
+    }
+    .footer-2 h3, .footer-3 h3 {
+        margin-bottom: 16px;
+        margin-top: 21px;
+    }
+    .right-s .img-1 img, .right-s .img-2 img {
+        display: block;
+        margin: 20px 0;
+        width: 100px;
+    }
+    .footer-2, .footer-3, .footer-1 {
+        padding-right: 0px;
+    }
+    .photo-size {
+        width: 16.66%;
+        flex: 50%;
+    }
+}
+/* -------- Responsive 324px -------- */
+@media (max-width: 318px) {
+
+}
